@@ -9,6 +9,8 @@ This repository provides a detailed insight into different concepts of Data Stru
 
 ```
 📦 DSA_withCpp
+├── 📂 Basics
+│   ├── 📂 BitwiseOperator
 ├── 📂 Pattern
 │   ├── 📂 Butterfly
 │   ├── 📂 Diamond
