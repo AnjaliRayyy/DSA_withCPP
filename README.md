@@ -11,6 +11,7 @@ This repository provides a detailed insight into different concepts of Data Stru
 📦 DSA_withCpp
 ├── 📂 Basics
 │   ├── 📂 BitwiseOperator
+│   ├── 📂 NumberSystem
 ├── 📂 Pattern
 │   ├── 📂 Butterfly
 │   ├── 📂 Diamond
@@ -66,4 +67,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Anjali**
 
 Feel free to contribute by submitting issues or pull requests! 🚀
-
