@@ -1,0 +1,19 @@
+What Are Vectors in C++?
+A vector in C++ is a part of the Standard Template Library (STL) and works like a dynamic array — it can resize itself automatically when elements are added or removed.
+
+✅ Think of it as:
+
+    - An array that grows/shrinks on its own.
+
+    - A container that offers many built-in functions (like push_back, sort, erase, etc.)
+
+    - Type-safe, so it holds elements of only one data type.
+
+
+Syntax:
+                #include <vector>
+                using namespace std;
+
+                vector<int> v;          // Empty vector of ints
+                vector<string> names;   // Vector of strings
+
