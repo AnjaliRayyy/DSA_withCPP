@@ -9,8 +9,17 @@ This repository provides a detailed insight into different concepts of Data Stru
 
 ```
 📦 DSA_withCpp
+├── 📂 Algorithms
+│   ├── 📂 Searching
+│   ├── 📂 Sorting
+├── 📂 Arrays
+│   ├── 📂 1D Arrays
+│   ├── 📂 2D Arrays
+├── 📂 LEETCODE_PROBLEMS
+│   ├── 📂 Arrays
 ├── 📂 Basics
 │   ├── 📂 BitwiseOperator
+│   ├── 📂 NumberPrograms
 │   ├── 📂 NumberSystem
 ├── 📂 Pattern
 │   ├── 📂 Butterfly
@@ -19,6 +28,10 @@ This repository provides a detailed insight into different concepts of Data Stru
 │   ├── 📂 Pyramid
 │   ├── 📂 Rhombus
 │   ├── 📂 Square
+├── 📂 Strings
+├── 📂 Vectors
+│   ├── 📂 Basics
+│   ├── 📂 Practice
 ├── 📄 firstCode.cpp    # Sample C++ program
 ├── 📜 LICENSE
 └── 📘 README.md
