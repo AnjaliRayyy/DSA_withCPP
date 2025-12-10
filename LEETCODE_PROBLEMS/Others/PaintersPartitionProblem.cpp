@@ -15,13 +15,14 @@ bool isValid(vector<int> arr,int n,int m,int maxAllowed){
     else return false;
 }
 int minTimeTaken(vector<int>& nums,int n,int m){
-    int maxTime=0;
+    int sum=0,maxTime=INT32_MIN;
     //Calculating the maximum time required
     for(int i=0;i<nums.size();i++){
-        maxTime+=nums[i];
+        sum+=nums[i];
+        maxTime=max(maxTime,nums[i]);
     }
-    if(m==1) return maxTime;
-    int st=0,end=maxTime,mid,ans=-1;
+    if(m==1) return sum;
+    int st=maxTime,end=sum,mid,ans=-1;
     while(st<end){
         mid=st+(end-st)/2;
         if(isValid(nums,n,m,mid)){
